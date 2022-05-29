@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './pages/home-page.component';
-import { AboutPageComponent } from './pages/about-page.component';
+import { HomePageComponent } from './pages//home/home-page.component';
+import { AboutPageComponent } from './pages/about/about-page.component';
 
 
 @NgModule({
