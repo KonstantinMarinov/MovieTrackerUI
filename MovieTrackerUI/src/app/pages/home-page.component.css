@@ -1,0 +1,70 @@
+/* General */ 
+
+.main-container {
+    height: 33rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    color: #FCFCFC;
+}
+
+/* Header */
+
+.header-container {
+    height: 15rem;
+    border-radius: 3rem;
+    background-color: #0A1045; 
+}
+
+.text {
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .text {
+        padding-left: 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .text {
+        padding-left: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .text {
+        padding-left: 4.5rem;
+    }
+    
+}
+
+/* Preview */
+
+.preview-container {
+    height: 15rem;
+    margin-top: 1rem;
+    
+}
+
+.preview-button {
+    width: 10rem;
+    height: 5rem;
+    
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 3rem;
+}
+
+.btn--primary {
+    background-color: #028090;
+}
+
+
