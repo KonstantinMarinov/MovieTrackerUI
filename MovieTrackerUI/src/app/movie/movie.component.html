@@ -1,0 +1,24 @@
+<div class="main-container d-flex">
+  <div
+    *ngFor="let movie of movies"
+    class="movie-container d-flex justify-content-center align-items-center"
+  >
+    <div>
+      <h2 class="movie__title">{{ movie.title }}</h2>
+      <img
+        class="image"
+        src="../../assets/mission-impossible-poster.jpg"
+        alt="Movie poster"
+      />
+      <p class="movie__description">{{ movie.description }}</p>
+    </div>
+    <button
+      routerLink="/movie"
+      routerLinkActive="active"
+      class="btn btn--accent review__button"
+      (click)="sendNewData(movie.title)"
+    >
+      Review
+    </button>
+  </div>
+</div>

@@ -3,7 +3,7 @@
 .main-container {
     height: 33rem;
     padding: 1rem;
-    border-radius: 3rem;
+    border-radius: var(--border-radius);
     color: #FCFCFC;
 }
 
@@ -11,36 +11,12 @@
 
 .header-container {
     height: 15rem;
-    border-radius: 3rem;
+    border-radius: var(--border-radius);
     background-color: #0A1045; 
 }
 
 .text {
-    padding-left: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-
-    .text {
-        padding-left: 3rem;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-
-    .text {
-        padding-left: 4rem;
-    }
-    
-}
-
-@media screen and (min-width: 1440px) {
-
-    .text {
-        padding-left: 4.5rem;
-    }
-    
+    text-align: center;
 }
 
 /* Preview */
@@ -60,7 +36,7 @@
 /* Buttons */
 
 .btn {
-    border-radius: 3rem;
+    border-radius: var(--border-radius);
 }
 
 .btn--primary {

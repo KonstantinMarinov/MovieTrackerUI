@@ -1,0 +1,60 @@
+/* General */
+
+.main-container {
+  padding: 2.5rem;
+}
+
+.desciption-container {
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
+  width: 59.5rem;
+  text-align: start;
+  padding: 2.5rem;
+}
+
+.movie-container {
+  background-color: #0a1045;
+  width: 24rem;
+  height: 35rem;
+  margin: 0 2.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+/* Text */
+
+.movie__title {
+  color: #fcfcfc;
+  font-size: 1.5rem;
+}
+
+.movie__description {
+  color: #fcfcfc;
+}
+
+/* Images */
+
+.image {
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+/* Buttons */
+
+/* Buttons */
+
+.btn {
+  border-radius: var(--border-radius);
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+}
+
+.review__button {
+  position: absolute;
+  margin-top: 45rem;
+  width: 10rem;
+  height: 3rem;
+}

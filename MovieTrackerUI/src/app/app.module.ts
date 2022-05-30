@@ -8,13 +8,16 @@ import { AboutPageComponent } from './pages/about/about-page.component';
 import { CatalogPageComponent } from './pages/catalog/catalog-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { MovieComponent } from './movie/movie.component';
+import { MoviePageComponent } from './pages/movie-page/movie-page.component';
 
-const routes: Routes = [ 
+const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'catalog', component: CatalogPageComponent },
   { path: 'about', component: AboutPageComponent },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+  { path: 'movie', component: MoviePageComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
@@ -24,17 +27,12 @@ const routes: Routes = [
     AboutPageComponent,
     NavigationComponent,
     CatalogPageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MovieComponent,
+    MoviePageComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(routes)
-  ],
+  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(routes)],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { 
-
-
-}
+export class AppModule {}

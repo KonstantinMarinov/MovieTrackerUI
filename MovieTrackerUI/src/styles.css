@@ -1,1 +1,21 @@
+:root {
+  --color-primary: #028090;
+  --color-secondary: rgba(243, 249, 253, 1);
+  --color-accent: #ffb30f;
+  --color-headings: #494847;
+  --color-body: #494847;
+  --color-white: #fff;
+  --color-fill: rgb(252, 252, 252);
+  --color-dark-fill: rgb(248, 248, 248);
+  --color-border: rgb(72, 72, 72);
+  --color-menu: rgb(90, 90, 90);
+  --color-light-border: lightgray;
+  --border-radius: 3rem;
+  --navbar-padding: 3rem;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
